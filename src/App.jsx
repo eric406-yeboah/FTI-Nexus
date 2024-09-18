@@ -1,13 +1,18 @@
-import React from "react"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Login from "./pages/Login";
+import CreateAccount from "./pages/CreateAccount";
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <BrowserRouter>
+      <Routes>
+       <Route path="/" element={<HomePage />}/>
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
