@@ -2,8 +2,9 @@ import React from 'react';
 
 const CreateAccount = () => {
   return (
+  <>
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">
-      <div className="bg-white shadow-md rounded-lg p-8 max-w-md w-full">
+      <div className="bg-white shadow-sm rounded-lg p-6 w-full max-w-md shadow-[0_1px_3px_rgba(0,0,0,0.1)]">
         {/* <div className="flex justify-center mb-6">
           {}
           <img src="/logo.png" alt="Logo" className="h-12" />
@@ -91,6 +92,7 @@ const CreateAccount = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 
