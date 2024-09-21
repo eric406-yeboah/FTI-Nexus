@@ -93,16 +93,14 @@ const CreateAccount = () => {
 
           
             <button
-              type="button"
-              className="w-full flex items-center justify-center border border-gray-300 py-2 rounded-lg font-bold hover:bg-gray-200 transition duration-300"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png"
-                alt="Google Logo"
-                className="h-5 w-5 mr-2"
-              />
-              Sign up with Google
-            </button>
+            type="button"
+            className="w-full flex items-center justify-center border border-gray-300 py-2 rounded-lg font-bold hover:bg-gray-200 transition duration-300"
+            onClick={() => window.location.href = ' https://fti-nexus-backend.onrender.com/api/v1/auth/signup/google'}>
+            <img
+             src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png"alt="Google Logo" className="h-5 w-5 mr-2"/>
+  Sign up with Google
+</button>
+
 
             
             <p className="text-center text-gray-600 mt-4">
